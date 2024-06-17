@@ -1,0 +1,95 @@
+/* Estilos globais */
+body {
+    background-color: rgb(255, 255, 255);
+  }
+  
+  span {
+    text-align: center;
+  }
+  
+  
+  /* Estilos específicos do PublicadosPanel */
+  .panelContainer {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+  }
+  
+  .doacaoItem {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+    display: flex; /* Adicionado para alinhar a imagem e o conteúdo */
+    align-items: center; /* Adicionado para centralizar verticalmente */
+    margin-bottom: 20px; /* Adicionado para separar os itens de doação */
+    
+  }
+  .doacaoItem:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.966);
+  }
+  
+  .doacaoItem:last-child {
+    border-bottom: none;
+  }
+  
+  .h2 {
+    font-size: 18px; 
+    color: black;
+    margin: 0;
+    margin-bottom: 2px;
+  }
+  
+  .descricao {
+    font-size: 14px;
+    color: #555;
+    margin: 0;
+  }
+  
+  .doacaoItem {
+  position: relative;
+}
+
+.inativarButton {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #4CAF50; 
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 20% 2%;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.previewImage {
+    max-width: 40%; 
+    max-height: 40%; 
+    border-radius: 10px; 
+  }
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  .loading {
+    border: 8px solid rgba(0, 0, 0, 0.1);
+    border-top: 8px solid #3498db;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+  
+  }
+  .loadingContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+  }
+

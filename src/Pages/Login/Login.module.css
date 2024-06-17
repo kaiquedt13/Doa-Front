@@ -1,0 +1,107 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+.EsqueceuSenha {
+    font-size: 12px;
+    text-align: right;
+    margin-bottom: 20px;
+    color: #777;
+  }
+  
+  .Botao {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    background: linear-gradient(45deg, #692CAB, #692cab6b);
+    color: #fff;
+    transition: background-color 0.3s ease;
+  }
+  
+  .Botao:hover{
+    background: linear-gradient(45deg, #692CAB, #fd3a6b);
+  }
+
+.CardPrincipal {
+    border: 1.5px solid #000;
+    border-radius: 20px;
+    width: 30%;
+    height: 60%;
+    padding: 4%;
+    margin: auto;
+    border: none; 
+    margin-top:  6%;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+.Email {
+    margin-bottom: 20px;
+    margin-top: 5px;
+    background-color: rgba(128, 128, 128, 0.396);
+    border-radius: 5px;
+    display: block;
+    width: 100%; 
+    height: 40px;
+}
+
+.Senha {
+    margin-bottom: 20px;
+    background-color: rgba(128, 128, 128, 0.396);
+    border-radius: 5px;
+    display: block;
+    width: 100%;
+    height: 40px;
+}
+.Icons {
+   width: 9%;
+   height: 9%;
+}
+
+.Icons2{
+    display: flex;
+    flex-direction: space-between;
+    justify-content: center;
+    padding: 10px;
+    
+}
+
+
+.TextoLogin {
+    padding-bottom: 4px;
+}
+
+.EsqueceuSenha{
+    font-size: 12px;
+}
+
+.font1{
+    font-size: 14px;
+}
+
+.BotãoDeEntrar {
+    width: 100%;
+    padding: 7px;
+    border-radius: 10px;
+    background-color: #625959ce;
+    color: white;
+}
+.Modal{
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #000000;
+    transition: background-color 0.3s ease;
+} 
+.Modal:hover{
+ color: #692CAB;
+  }
+.Titulo
+{
+ font-size: 40px;
+}
+
